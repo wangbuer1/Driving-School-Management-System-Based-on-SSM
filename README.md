@@ -1,39 +1,75 @@
-# 基于SSM的驾校管理系统
+# 基于SSM的驾校管理系统3
 
-#### 介绍
-{**以下是 Gitee 平台说明，您可以替换此简介**
-Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用 Gitee 实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+## ## 获取方式
 
-#### 软件架构
-软件架构说明
+扫描下方，回复关键词  ：**驾校3** ，获取完整版源码
 
+![https://gitee.com/](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205281253739.png)
 
-#### 安装教程
+## 1、项目介绍
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+基于SSM的驾校管理系统3拥有三种角色，分别为管理员、教员、学员。实现了学员信息管理、课表信息管理、车辆信息管理、缴费管理、反馈管理、课程安排等功能，具体请参照下列功能介绍。
 
 
-#### 特技
+## 2、项目技术
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+后端框架：SSM（Spring、SpringMVC、Mybatis）
+
+前端技术：jsp、css、JavaScript、JQuery
+
+## 3、开发环境
+
+- JAVA版本：JDK1.8
+- IDE类型：IDEA、Eclipse都可运行
+- tomcat版本：Tomcat 7-10版本均可
+- 数据库类型：MySql（5.x和8.x版本都可） 
+- maven项目：否
+- 硬件环境：Windows 
+
+
+## 4、功能介绍
+
+### 4.1 登录
+
+![登录](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/%20Typora-Images/202309191600115.jpg)
+
+### 4.2 管理员模块
+
+![管理员-学员信息管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/%20Typora-Images/202309191600511.jpg)
+
+![管理员-学生成绩管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/%20Typora-Images/202309191600448.jpg)
+
+![管理员-学员课表](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/%20Typora-Images/202309191600566.jpg)
+
+![管理员-授课学员信息表](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/%20Typora-Images/202309191600719.jpg)
+
+![管理员-教员信息表](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/%20Typora-Images/202309191600689.jpg)
+
+![管理员-车辆信息管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/%20Typora-Images/202309191600697.jpg)
+
+![管理员-缴费管理系统](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/%20Typora-Images/202309191600851.jpg)
+
+![管理员-学员反馈](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/%20Typora-Images/202309191601782.jpg)
+
+![管理员-课程安排](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/%20Typora-Images/202309191601740.jpg)
+
+### 4.3 教练模块
+
+![教员管理后台](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/%20Typora-Images/202309191601941.jpg)
+
+### 4.4 学员模块
+
+![学员-成绩管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/%20Typora-Images/202309191601022.jpg)
+
+![学员-课表管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/%20Typora-Images/202309191601668.jpg)
+
+![学员-我的车辆](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/%20Typora-Images/202309191601065.jpg)
+
+![学员-评教](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/%20Typora-Images/202309191601791.jpg)
+
+## 5、视频演示
+
+[点击播放视频，视频位于文章最后](输入链接)
+
+
+
